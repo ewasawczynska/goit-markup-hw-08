@@ -1,7 +1,4 @@
 .title-list {
-  &__item {
-    flex-basis: calc((100% - 90px) / 4);
-  }
   &__picture {
     background-color: $color-theme2-cream;
     border-radius: 4px;
