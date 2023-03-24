@@ -1,0 +1,26 @@
+.offer {
+  &__section {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+  &__image {
+    flex-basis: calc((100% - 60px) / 3);
+    position: relative;
+  }
+  &__image > .offer__label {
+    position: absolute;
+    bottom: 0;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-mainandaddress;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+}

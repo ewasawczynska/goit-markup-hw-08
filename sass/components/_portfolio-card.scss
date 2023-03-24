@@ -1,0 +1,40 @@
+.portfolio-card {
+  margin: 0;
+  transition-property: box-shadow, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  &:hover .overlay {
+    transform: translatey(0);
+  }
+
+  &__animation {
+    overflow: hidden;
+    position: relative;
+  }
+  &__title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  &__type {
+    font-size: 16px;
+    color: $color-theme3-light-grey;
+    line-height: 1.9;
+    font-weight: 400;
+  }
+}

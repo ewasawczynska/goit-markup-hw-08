@@ -1,0 +1,36 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &--main-page {
+    background-image: linear-gradient(
+        to top,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/background-image.jpg");
+
+    background-color: $color-theme1-dark-grey;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  &--addition {
+    padding-top: 0;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &--our-team {
+    background-color: $color-theme2-cream;
+  }
+}

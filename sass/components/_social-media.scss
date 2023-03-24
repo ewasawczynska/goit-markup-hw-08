@@ -1,0 +1,35 @@
+.social-media {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 11px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__frame-grid {
+    transition-property: background-color, fill;
+    &:hover,
+    &:focus,
+    &:hover .social-media__icon,
+    &:focus .social-media__icon {
+      background-color: $color-highlights;
+      fill: $color-mainandaddress;
+    }
+  }
+  &__frame-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $color-highlights;
+    }
+  }
+  &__icon {
+    fill: $color-icon;
+    transition-property: background-color, fill;
+    &--footer {
+      fill: $color-theme2-cream;
+    }
+  }
+}

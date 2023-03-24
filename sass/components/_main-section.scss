@@ -1,0 +1,21 @@
+.main-section {
+  &__text {
+    font-weight: 900;
+    font-size: 44px;
+    color: $color-mainandaddress;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
+  }
+  &__button {
+    color: $color-mainandaddress;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    padding-left: 42px;
+    padding-right: 41px;
+    text-align: center;
+  }
+}

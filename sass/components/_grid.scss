@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  gap: 30px;
+  &--portfolio {
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  &__item-4 {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  &__item-3 {
+    flex-basis: calc((100% - 56px) / 3);
+  }
+}

@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  align-items: center;
+  &__logo-style {
+    margin-right: 93px;
+  }
+  &__bar {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  &__link {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:not(:last-child) {
+      margin-right: 46px;
+    }
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: $color-highlights;
+    }
+    &--active {
+      position: relative;
+      color: $color-highlights;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -32px;
+        width: 100%;
+        display: block;
+        height: 4px;
+        background-color: $color-highlights;
+        border-radius: 2px;
+        left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+body {
+  font-family: $page-font-family;
+  color: $color-titles;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+figure,
+input {
+  margin: 0;
+}
+
+input {
+  border: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  padding-top: 24px;
+  align-items: center;
+}
+
+/*animation for portfolio.html*/
+.overlay > p {
+  background-color: rgba(33, 150, 243, 0.9);
+  color: $color-mainandaddress;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 63px;
+  padding-bottom: 91px;
+}
