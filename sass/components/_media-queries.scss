@@ -25,30 +25,60 @@
     display: inline;
   }
   .title-list {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
     &__title {
       text-align: center;
     }
-    &__text {
-      padding-bottom: 30px;
-      &:last-child {
-        padding-bottom: 0px;
-      }
-    }
+
     &__icons {
       width: 450px;
     }
   }
   .team-card {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
     &__title {
       width: 450px;
-      margin-bottom: 30px;
-      &:last-child {
-        margin-bottom: 0px;
-      }
     }
     &__image {
       width: 450px;
       height: 460px;
+    }
+  }
+  .our-customers {
+    &__icon {
+      width: 210px;
+    }
+    &__box {
+      flex-wrap: wrap;
+    }
+    &__frame {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+  }
+  .footer {
+    text-align: center;
+
+    &__section {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__address,
+    &__social-media {
+      padding-bottom: 60px;
+    }
+    &__newsletter-input {
+      margin-bottom: 20px;
+      width: 450px;
+    }
+    &__data,
+    &__social-media {
+      margin-right: 0px;
     }
   }
 }
