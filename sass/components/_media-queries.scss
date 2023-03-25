@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px) {
+  .containter {
+    max-width: 480px;
+  }
+  .offer__section,
+  .section__title--hide {
+    display: none;
+  }
+
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &--main-page {
+      background-size: cover;
+    }
+    &--addition {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    &__title:nth-child(1) {
+      margin-bottom: 30px;
+    }
+  }
+  .grid {
+    display: inline;
+  }
+  .title-list {
+    &__title {
+      text-align: center;
+    }
+    &__text {
+      padding-bottom: 30px;
+      &:last-child {
+        padding-bottom: 0px;
+      }
+    }
+    &__icons {
+      width: 450px;
+    }
+  }
+  .team-card {
+    &__title {
+      width: 450px;
+      margin-bottom: 30px;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+    &__image {
+      width: 450px;
+      height: 460px;
+    }
+  }
+}
