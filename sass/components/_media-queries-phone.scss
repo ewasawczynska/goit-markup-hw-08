@@ -2,6 +2,10 @@
   .containter {
     max-width: 480px;
   }
+  .main-section__text {
+    font-size: 26px;
+    line-height: 1.6;
+  }
   .offer__section,
   .section__title--hide {
     display: none;
@@ -79,6 +83,17 @@
     &__data,
     &__social-media {
       margin-right: 0px;
+    }
+  }
+  .modal {
+    width: 450px;
+  }
+  .form {
+    &__input-field {
+      width: 370px;
+    }
+    &__policy {
+      font-size: 12px;
     }
   }
 }
