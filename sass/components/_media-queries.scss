@@ -114,6 +114,17 @@
     width: 226px;
     height: 92px;
   }
+  .footer {
+    &__section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    &__data,
+    &__social-media {
+      margin: 0px;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
