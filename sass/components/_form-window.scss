@@ -16,12 +16,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-left: 40px;
-  padding-right: 40px;
   width: calc(100% - 30px);
   max-width: 450px;
   height: calc(100% - 186px);
-  max-height: 609px;
+  min-height: 609px;
   border-radius: 4px;
   background-color: $color-mainandaddress;
 }
@@ -78,5 +76,22 @@
 
   100% {
     transform: scale(1) translate(-50%, -50%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .modal {
+    width: calc(100% - 318px);
+    max-width: 450px;
+    height: calc(100% - 416px);
+    min-height: 609px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: calc(100% - 1072px);
+    max-width: 528px;
+    height: calc(100% - 442px);
+    min-height: 581px;
   }
 }
