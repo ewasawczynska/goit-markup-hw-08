@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .nav__bar,
   .contact-header {
     display: none;
@@ -9,9 +9,6 @@
   }
   .logo {
     font-size: 24px;
-  }
-  .nav__logo-style {
-    margin-right: 276px;
   }
   .nav {
     height: 28px;
@@ -47,7 +44,7 @@
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 768px) {
   .menu-toggle,
   .mobile-menu,
   .menu-container {
@@ -73,11 +70,10 @@
   transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
+.menu-toggle {
   position: absolute;
-  top: 16px;
-  right: 16px;
-  color: #fff;
+  top: 10px;
+  right: 10px;
 }
 
 .mini-nav,
