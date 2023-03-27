@@ -98,8 +98,13 @@
 @media screen and (min-width: 1200px) {
   .footer {
     text-align: left;
+    line-height: 1.7;
+    font-size: 14px;
     &__section {
-      align-items: baseline;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: baseline;
+      gap: 0px;
     }
     &__newsletter-input {
       width: 345px;
@@ -107,12 +112,19 @@
       padding-top: 15px;
       padding-bottom: 15px;
       padding-right: 0px;
+      margin: 0px;
     }
     &__data {
       margin-right: 70px;
     }
     &__social-media {
       margin-right: 78px;
+    }
+    &__sm-icons-panel {
+      justify-content: left;
+    }
+    &__newsletter-title {
+      margin-bottom: 20px;
     }
   }
 }

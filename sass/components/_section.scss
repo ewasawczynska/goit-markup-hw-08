@@ -55,18 +55,23 @@
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-bottom: 50px;
+
     &__title {
       font-size: 36px;
       line-height: 1.2;
+      margin-bottom: 50px;
+
       &--hide {
         display: block;
       }
-      &__main-page {
-        background-size: contain;
-        padding-top: 200px;
-        padding-bottom: 200px;
-      }
+    }
+    &--main-page {
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+    &--addition {
+      padding-top: 0;
+      padding-bottom: 94px;
     }
   }
 }
