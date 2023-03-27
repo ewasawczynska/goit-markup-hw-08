@@ -1,25 +1,4 @@
 @media screen and (max-width: 480px) {
-  .team-card {
-    margin-bottom: 30px;
-    &:last-child {
-      margin-bottom: 0px;
-    }
-    &__title {
-      width: 450px;
-    }
-    &__image {
-      width: 450px;
-      height: 460px;
-    }
-  }
-  .our-customers {
-    &__icon {
-      width: 210px;
-    }
-    &__frame {
-      width: 210px;
-    }
-  }
   .footer {
     text-align: center;
 
@@ -63,19 +42,6 @@
     }
   }
 
-  .team-card {
-    &__title {
-      width: 354px;
-    }
-    &__image {
-      width: 354px;
-      height: 374px;
-    }
-  }
-  .our-customers__icon {
-    width: 226px;
-    height: 92px;
-  }
   .footer {
     &__section {
       align-items: center;
