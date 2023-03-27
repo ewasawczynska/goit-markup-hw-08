@@ -11,14 +11,14 @@
 
     background-color: $color-theme1-dark-grey;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: 50% 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
   &--addition {
     padding-top: 0;
@@ -61,6 +61,11 @@
       line-height: 1.2;
       &--hide {
         display: block;
+      }
+      &__main-page {
+        background-size: contain;
+        padding-top: 200px;
+        padding-bottom: 200px;
       }
     }
   }

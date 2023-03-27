@@ -55,14 +55,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main-section__text {
-    font-size: 26px;
-    line-height: 1.6;
-  }
-
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
     &--main-page {
       background-size: cover;
     }
