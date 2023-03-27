@@ -1,11 +1,5 @@
 @media screen and (max-width: 480px) {
   .footer {
-    text-align: center;
-
-    &__section {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
     &__address,
     &__social-media {
       padding-bottom: 60px;

@@ -2,19 +2,20 @@
   background-color: $color-theme1-dark-grey;
   padding-top: 60px;
   padding-bottom: 60px;
-
+  text-align: center;
+  line-height: 1.7;
+  font-size: 14px;
   &__section {
     display: flex;
-    align-items: baseline;
-  }
-  &__data {
-    margin-right: 70px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
   }
   &__address {
     color: $color-mainandaddress;
-    line-height: 1.7;
+
     font-style: normal;
-    font-size: 14px;
   }
   &__contact {
     color: rgba(255, 255, 255, 60%);
@@ -27,9 +28,7 @@
       color: $color-highlights;
     }
   }
-  &__social-media {
-    margin-right: 78px;
-  }
+
   &__sm-text {
     color: $color-mainandaddress;
     font-weight: 700;
@@ -39,23 +38,25 @@
     fill: $color-mainandaddress;
     display: flex;
     gap: 10px;
+    justify-content: center;
   }
 
   &__newsletter-title {
     color: $color-mainandaddress;
     font-weight: 700;
-    margin-bottom: 20px;
   }
   &__newsletter-input {
     padding-left: 16px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background: none;
-    width: 345px;
+    width: 100%;
     color: rgba(255, 255, 255, 0.6);
     &:placeholder-shown {
       letter-spacing: 0.03em;
@@ -82,5 +83,35 @@
 
   &__newsletter-pic {
     fill: $color-mainandaddress;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    text-align: left;
+    &__section {
+      flex-direction: row;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    text-align: left;
+    &__section {
+      align-items: baseline;
+    }
+    &__newsletter-input {
+      width: 345px;
+      padding-left: 16px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 0px;
+    }
+    &__data {
+      margin-right: 70px;
+    }
+    &__social-media {
+      margin-right: 78px;
+    }
   }
 }
