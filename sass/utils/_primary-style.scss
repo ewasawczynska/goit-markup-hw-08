@@ -29,10 +29,11 @@ a {
 
 img {
   display: block;
+  width: 100%;
 }
 
 .container {
-  max-width: 767px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -61,16 +62,4 @@ header {
   padding-right: 24px;
   padding-top: 63px;
   padding-bottom: 91px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .containter {
-    max-width: 1199px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .containter {
-    min-width: 1200px;
-  }
 }
