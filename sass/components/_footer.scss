@@ -14,7 +14,6 @@
   }
   &__address {
     color: $color-mainandaddress;
-
     font-style: normal;
   }
   &__contact {
@@ -88,9 +87,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer {
-    text-align: left;
     &__section {
       flex-direction: row;
+    }
+    &__data {
+      margin-right: 84px;
     }
   }
 }
